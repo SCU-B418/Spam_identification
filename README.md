@@ -1,6 +1,13 @@
 # Spam-identification
 目标：识别中文的垃圾邮件
-  
+
+# 参考解决方法
+
+|文件名|作者|效果|说明|
+|-|-|-|-|
+|[Spam_identification_solution(Keras).py](Spam_identification_solution(Keras).py)|袁宵|98%-100%|用神经网络框架 Keras 设计了两种简单的神经网络：卷积神经网络和循环神经网络，较好的解决了此垃圾邮件二分类问题|
+|[Spam_identification_solution(Keras).ipynb](Spam_identification_solution(Keras).ipynb)|袁宵|98%-100%|与[Spam_identification_solution(Keras).py](Spam_identification_solution(Keras).py) 内容一致|
+
 相关模块： 
 ----------------  
 scikit-learn模块；  
@@ -20,7 +27,7 @@ python3
 【测试数据集】：  
 共392封邮件(data/test文件夹下)。  
   
-实现步骤：  
+c一种实现步骤：  
 ----------------
 1）【创建字典】 1人     
 方法：正则表达式，jieba分词库  
@@ -39,8 +46,3 @@ python3
 4）【性能测试】 1人  
 利用模型预测结果，并绘图，得出混淆矩阵   
 提示：matplotlib  
-
-创建了 Spam_dev 分支
-
-# 签到
-201811130826
